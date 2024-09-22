@@ -1,5 +1,4 @@
 import AboutMeSection from "./Componentes/AboutMeSection"
-import BannerSection from "./Componentes/BannerSection"
 import { Footer } from "./Componentes/Footer"
 import Header from "./Componentes/Header"
 import ProjectsSection from "./Componentes/ProjectsSection"
@@ -10,7 +9,6 @@ export const Home = () => {
         <>
             <Header/>
             <AboutMeSection />
-            <BannerSection />
             <ProjectsSection />
             <TechSection />
             <Footer />

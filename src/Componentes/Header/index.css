@@ -24,11 +24,9 @@ header ul{
 header ul li{
     color: var(--grey-2)
 }
-header ul li::selection{
-    color: var(--grey-4)
-}
 header ul li:hover{
     cursor: pointer;
+    color: var(--grey-4)
 }
 
 header button{

@@ -5,8 +5,10 @@ import cssicon from "./css-icon.png"
 import jsicon from "./js-icon.png"
 import nodeicon from "./node.png"
 import reacticon from "./react-icon.png"
-import banner from "./banner-img.png"
 import "./index.css"
+import BannerSection from "../BannerSection/index.jsx"
+
+
 export const AboutMeSection = () => {
     return(
         <section className="aboutSection">
@@ -30,7 +32,7 @@ export const AboutMeSection = () => {
                 </div>
             </div>
             <div className="section__div2">
-                <img src={banner} alt="banner" />
+                <BannerSection />
             </div>
         </section>
     )

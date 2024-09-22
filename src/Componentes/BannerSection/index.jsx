@@ -1,9 +1,10 @@
+import banner from "./banner-img.png"
+
 export const BannerSection = () => { 
     return(
-        <section>
-            <h2>BannerSection</h2>
-            <button></button>
-        </section>
+        <>
+            <img src={banner} alt="banner" />
+        </>
     )
 }
 export default BannerSection

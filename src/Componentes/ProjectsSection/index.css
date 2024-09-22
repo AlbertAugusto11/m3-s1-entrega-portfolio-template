@@ -1,0 +1,70 @@
+.projectSection{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--grey-4);
+    background-color: var(--grey-0);
+    gap: 0.5rem;
+    padding-top: 3rem;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+}
+.projectSection h3{
+    color: var(--grey-4);
+    font-size: var(--title-2);
+    margin-bottom: 0.5rem;
+}
+.projectSection .section__p{
+    color: var(--grey-2);
+    font-size: var(--font-1);
+    margin-bottom: 3rem;
+}
+.projectSection .section__p span{
+    color: var(--color-tertiary);
+    font-size: var(--font-1);
+}
+.projectSection p{
+    color: var(--grey-2);
+    font-size: var(--font-1);
+}
+.projectSection ul{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+.projectSection ul li{
+    display: flex;
+    flex-flow: column;
+    width: 450px;
+}
+.projectSection ul li p{
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+.projectSection ul li p span{
+    background-color: var(--grey-1);
+    border-radius: 6px;
+    padding: 0.3rem;
+    margin-left: 2rem;
+}
+
+
+.projectSection ul li div{
+    display: flex;
+    flex-flow: row;
+    gap: 1rem;
+    align-content: center;
+}
+.projectSection ul li div p{
+    align-self: center;
+}
+.projectSection ul li div img{
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 650px) {
+    .projectSection{
+        padding-left: 2rem;
+    }
+}

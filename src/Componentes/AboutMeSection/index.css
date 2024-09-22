@@ -56,6 +56,7 @@
 }
 .div1__div2 button:hover{
     cursor: pointer;
+    background-color: var(--color-primary50);
 }
 .div1__div3{
     display: flex;
