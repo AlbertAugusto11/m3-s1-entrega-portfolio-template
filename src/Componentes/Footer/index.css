@@ -5,26 +5,67 @@
     padding-left: 7.5rem;
     gap: 2rem;
     background-color: var(--grey-0);
-    height: 150px;
+    height: 9.375rem;
 }
 .footer__Div .img__perfil{
     width: 60px;
     height: 60px;
     border-radius: 100px;
 }
-.footer__Div div{
+.footer__Div .div1{
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     margin-right: 25rem;
 }
-.footer__Div div h4{
+.footer__Div .div1 h4{
     color: var(--grey-4);
 }
-.footer__Div div p{
+.footer__Div .div1 p{
     color: var(--grey-2);
 }
-.footer__Div img{
+.footer__Div .div2{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.footer__Div .div2 img{
+    display: flex;
+    flex-direction: row;
     width: 60px;
     height: 60px;
+}
+
+@media (max-width:650px) {
+    .footer__Div{
+        display: flex;
+        flex-flow: column;
+        justify-items: center;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        height: 18.75rem;
+    }
+    .footer__Div .img__perfil{
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+    }
+    .footer__Div .div1{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        gap: 1rem;
+        margin-right: 0;
+    }
+    .footer__Div .div1 h4{
+        color: var(--grey-4);
+        text-align: center;
+    }
+    .footer__Div .div1 p{
+        color: var(--grey-2);
+    }
+    .footer__Div img{
+        width: 60px;
+        height: 60px;
+    }
 }
