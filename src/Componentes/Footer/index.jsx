@@ -6,7 +6,7 @@ import "./index.css"
 
 export const Footer = () => {
     return(
-        <div className="footer__Div">
+        <div id="midias" className="footer__Div">
             <img className="img__perfil" src={perfil} alt="perfil" />
             <div className="div1">
                 <h4>Thank you!</h4>

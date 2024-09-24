@@ -5,10 +5,10 @@ export const Header = () => {
         <header>
             <h1>Anna</h1>
             <ul>
-                <li id="home">Home</li>
-                <li>Projects</li>
-                <li>Contatos</li>
-                <li>Midias Digitais</li>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#links">Contatos</a></li>
+                <li><a href="#midias">Midias Digitais</a></li>
             </ul>
             <button type="button"></button>
         </header>

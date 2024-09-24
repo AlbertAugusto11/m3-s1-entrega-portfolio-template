@@ -4,7 +4,7 @@ import "./index.css"
 
 export const ProjectsSection = () =>{
     return(
-        <section className="projectSection">
+        <section id="project" className="projectSection">
             <h3>My projects</h3>
             <p className="section__p">Projects created at <span>Kenzie Academy</span></p>
             <ul>

@@ -8,7 +8,7 @@ header{
     background-color: var(--grey-0);
     font-family: var(--font-main);
     padding-left: 7.5rem;
-    padding-right: 3rem;  
+    padding-right: 3rem;
 }
 header h1{
     color: var(--grey-4);
@@ -21,14 +21,14 @@ header ul{
     flex-direction: row;
     gap: 2.5rem;
 }
-header ul li{
+header ul li a{
+    text-decoration: none;
     color: var(--grey-2)
 }
-header ul li:hover{
+header ul li a:hover{
     cursor: pointer;
     color: var(--grey-4)
 }
-
 header button{
     display: none;
     background-image: url("./bars.png");
@@ -61,6 +61,9 @@ header button{
         background-repeat: no-repeat;
         border-radius: 6px;
         color: #ffffff;
+    }
+    header button:hover{
+        cursor: pointer;
     }
     header ul{
         display: none;

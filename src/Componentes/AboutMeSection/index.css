@@ -82,6 +82,10 @@
         padding-top: 2rem;
         padding-bottom: 2rem
     }
+    .section__div1 p{
+        width: 20.625rem;
+        text-align: justify;
+    }
     .section__div2{
         display: none;
     }
